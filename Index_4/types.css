@@ -1,0 +1,231 @@
+*{
+	padding:0px;
+	margin:0px;
+    
+}
+
+main{
+    background: #fff6da;
+    font-family: 'Arvo', serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+}
+/* navigation bar start */
+.banner{
+    width:100%;
+    height:120px;
+    background: #242940;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Logo_pic{
+    border-radius: 50%;
+    float: left;
+}
+.navbar{
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Arvo', serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar{
+    width:85%;
+    margin:auto;
+    padding: 35px 0;
+    display:block;
+    justify-content: center;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: inline-block;
+	margin: 10px 20px;
+	position: relative;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.navbar ul li::after{
+	content:'';
+	height: 3px;
+	width: 0%;
+	background: aliceblue;
+	position: absolute;
+	left: 0px;
+	bottom: -10px;
+	transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+	width: 100%;
+}
+
+/* navigation bar end */
+
+
+.First-part-grp{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    background-color:#62768F;
+    border: #242940 solid 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+    
+}
+
+/* Sizes of American bullies - start */
+
+
+
+.Sizes-container{
+    display: flex;
+    /* gap: 100px; */
+    color: #ffffff;
+    margin: 10px ;
+    
+}
+
+.Size-titles{
+    background-color: #BC5647;
+    border: #242940 solid 5px;
+    border-radius: 10px;
+    padding: 10px;
+    /* margin-right: 200px; */
+    margin-top:10px ;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.Size-description{
+    background-color: #62768F;
+    border: #242940 solid 5px;
+    border-radius: 10px;
+    padding: 10px;
+    /* margin-right: 200px; */
+
+    margin-top:10px ;
+}
+
+.Size_pic_grp{
+    border: #242940 solid 5px;
+    border-radius: 10px;
+
+}
+.Sizes-des-grp{
+    margin-left: 30px;
+}
+
+.Sizes-container{
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+
+}
+
+
+/* Sizes of American bullies - end */
+
+
+/*Footer*/
+.tothetop{
+	height:10px;
+	right:10%;
+	top:70%;
+    transform:scale(2);
+}
+
+footer{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:30px 200px;
+	gap: 24px;
+
+	
+	width: 100%;
+	height: 200px;
+	left: 0px;
+	top: 230%;
+
+   
+	background: #BC5647;
+    
+
+}
+
+.gettoknow{
+	/* Gettoknow */
+
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0px;
+	gap: 10px;
+
+	width: 100%;
+	height: 50%;
+
+	flex: none;
+	order: 0;
+	
+
+
+	color: aliceblue;
+
+}
+
+.socials{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 50%;
+    
+}
+
+/*socials animation*/
+.socials a{
+	transform:scale(2);
+	width: 16%;
+	transition: 0.08s ease-in-out;
+}
+
+.socials a:hover{
+	transform:scale(2.2);
+}
+
+.copyright{
+	/* Copyright */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 10%;
+
+
+	color: aliceblue;;
+}

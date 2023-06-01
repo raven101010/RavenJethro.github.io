@@ -1,0 +1,337 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+main{
+    font-family: 'Arvo', serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background: #fff6da;
+}
+
+/* navigation bar start */
+.banner{
+    width:100%;
+    height:120px;
+    background: #242940;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.Logo_pic{
+    border-radius: 50%;
+    float: left;
+}
+.navbar{
+    text-align: right;
+    font-size: 25px;
+}
+
+.navbar{
+    width:85%;
+    margin:auto;
+    padding: 35px 0;
+    display:block;
+    justify-content: center;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: inline-block;
+	margin: 10px 20px;
+	position: relative;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.navbar ul li::after{
+	content:'';
+	height: 3px;
+	width: 0%;
+	background: aliceblue;
+	position: absolute;
+	left: 0px;
+	bottom: -10px;
+	transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+	width: 100%;
+}
+
+/* navigation bar end */
+
+/* 1st part/ the name of page - start */
+.Intro{
+    background-color: aquamarine;
+    color: aliceblue;
+    background-image: url("../Dog/Dog-img-19-2.jpg");
+    padding-top: 150px;
+    padding-bottom: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+
+}
+
+.Text_1{
+    position:absolute;
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+.For_head{
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.Learn_more{
+    margin-left: 10%;
+    margin-top: 100px;
+    padding: 20px;
+    text-decoration: none;
+}
+/* 1st part/ the name of page - end */
+
+/* 2nd part/ why get an American Bully - start */
+.Three-circle-img{
+ border-radius: 10px;
+ margin: 5% 2%;
+ 
+}
+
+.Three-circle-img-container{
+    display: flex;
+    justify-content: center;
+    margin: 0% 15%;
+}
+/* 2nd part/ why get an American Bully - end */
+
+/**Third part/Characteristics - start**/
+
+.Text_2{
+    text-align: center;
+    margin: 0% 10%;
+}
+
+.Third-part-parent{
+    display: flex;
+    /**main/x axis center**/
+    justify-content: center;
+    /**cross/y axis center**/
+    align-items: center;
+    margin: 5% 0%;
+    line-height: 30px;
+    
+}
+
+.Side-img{
+    margin-right: 1%; 
+    border-radius: 10px ;
+}
+
+.Side-text-container{
+    background-color: #62768F;
+    padding: 20px;
+    border-radius: 5px;
+    color: aliceblue;
+
+}
+
+.Side-text-title{
+    background-color: #BC5647;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Side-text-container ul li{
+    margin: 10px;
+    list-style: none;
+    display: block;
+    
+}
+
+.Side-text-container ul li strong{
+    margin: 10px;
+    list-style: none;
+}
+
+.Side-text{
+    margin-left: 20px;
+}
+
+/**Third part end**/
+
+.Facts-Myth table{
+    table-layout: fixed;
+}
+
+.Facts-Myth th{
+    text-align: center;
+}
+
+.Facts-Myth th,td{
+    padding: 17px;
+}
+
+.Facts-Myth{
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 1% 20%;    
+
+} 
+
+.Facts-Myth-title{
+    text-align: center;
+   background-color: #BC5647;
+    font-family: 'Orbitron', sans-serif;
+    color: aliceblue;
+    padding: 20px;
+    
+}
+
+
+.Facts-Myth table th{
+    border-radius: 5Px; 
+    color: aliceblue;
+    background-color: #BC5647;
+}
+
+.Facts-Myth table tr td{
+    border-radius: 5Px; 
+    color: aliceblue;
+    background-color: #62768F;
+}
+
+
+
+.Facts-Myth table{
+    border: #242940 solid 5px;
+    border-radius: 5Px;
+}
+
+.Learn_more{
+    background-color: #BC5647;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.Learn_more a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Arvo', serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Project list stand up animation */
+.but .Learn_more:hover {
+   
+    transition: background 0.35s, transform 0.35s; /* Stand up animation timing */
+
+    background-color: #BC5647;
+    transform: translateY(-10px);
+}
+
+
+
+/*Footer*/
+.tothetop{
+	height:10px;
+	right:10%;
+	top:70%;
+    transform:scale(2);
+}
+
+footer{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:30px 200px;
+	gap: 24px;
+
+	
+	width: 100%;
+	height: 200px;
+	left: 0px;
+	top: 230%;
+
+   
+	background: #BC5647;
+    
+
+}
+
+.gettoknow{
+	/* Gettoknow */
+
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0px;
+	gap: 10px;
+
+	width: 100%;
+	height: 50%;
+
+	flex: none;
+	order: 0;
+	
+
+
+	color: aliceblue;
+
+}
+
+.socials{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 50%;
+    
+}
+
+/*socials animation*/
+.socials a{
+	transform:scale(2);
+	width: 16%;
+	transition: 0.08s ease-in-out;
+}
+
+.socials a:hover{
+	transform:scale(2.2);
+}
+
+.copyright{
+	/* Copyright */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 10%;
+
+
+	color: aliceblue;;
+}

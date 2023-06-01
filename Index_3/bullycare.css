@@ -1,0 +1,248 @@
+*{
+	padding:0px;
+	margin:0px;
+    /* box-sizing: border-box; */
+}
+
+/* font-family: 'Orbitron', sans-serif; */
+
+main{
+    font-family: 'Arvo', serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background: #fff6da;
+}
+
+
+/* navigation bar start */
+
+
+.banner{
+    width:100%;
+    height:120px;
+    background: #242940;
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+}
+
+.Logo_pic{
+    border-radius: 50%;
+    float: left;
+}
+.navbar{
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Arvo', serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    /* overflow-x: hidden; */
+}
+
+.navbar{
+    width:70%;
+    margin:auto;
+    padding: 35px 0;
+    display:block;
+    justify-content: center;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: inline-block;
+	margin: 10px 20px;
+	position: relative;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.navbar ul li::after{
+	content:'';
+	height: 3px;
+	width: 0%;
+	background: aliceblue;
+	position: absolute;
+	left: 0px;
+	bottom: -10px;
+	transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+	width: 100%;
+}
+
+/* navigation bar end */
+
+/* 1st part/ the name of page - start */
+.Intro{
+    background-color: aquamarine;
+    color: aliceblue;
+    background-image: url("../Dog/Dog-img-19-2.jpg");
+    padding-top: 150px;
+    padding-bottom: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.For_head{
+    padding: 15px;
+    margin-left: 10%;
+    margin-right: 65%; 
+    margin-top: 100px;
+    border-radius: 5%;
+    background-color: #242940;
+    text-align: center;
+}
+
+
+
+
+
+
+.des-title{
+    padding: 20px ;
+    color: aliceblue;
+    background-color: #BC5647;
+    text-align: center;
+    
+
+    
+}
+
+.des-grp-fl{
+    display: grid;
+    place-items: center;
+    
+    
+}
+
+.des{
+    padding: 20px;
+    
+}
+
+.des-grp{
+    border: #242940 solid 5px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 60%;
+    
+}
+
+
+
+.Img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Img img{
+    border: #242940 solid 5px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+
+/*Footer*/
+.tothetop{
+	height:10px;
+	right:10%;
+	top:70%;
+    transform:scale(2);
+}
+
+footer{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:30px 200px;
+	gap: 24px;
+
+	
+	width: 100%;
+	height: 200px;
+	left: 0px;
+	top: 230%;
+
+   
+	background: #BC5647;
+    
+
+}
+
+.gettoknow{
+	/* Gettoknow */
+
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0px;
+	gap: 10px;
+
+	width: 100%;
+	height: 50%;
+
+	flex: none;
+	order: 0;
+	
+
+
+	color: aliceblue;
+
+}
+
+.socials{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 50%;
+    
+}
+
+/*socials animation*/
+.socials a{
+	transform:scale(2);
+	width: 16%;
+	transition: 0.08s ease-in-out;
+}
+
+.socials a:hover{
+	transform:scale(2.2);
+}
+
+.copyright{
+	/* Copyright */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 10%;
+
+
+	color: aliceblue;;
+}
+
